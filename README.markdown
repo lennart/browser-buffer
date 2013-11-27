@@ -5,6 +5,12 @@ An attempt at mimicing node.js's Buffer API in the browser using typed arrays. T
 * Chrome 18 (beta) (Ubuntu)
 * Firefox 10.0.2 (Ubuntu)
 
+## Installation (component)
+
+  This requires [component(1)](http://component.io):
+
+    $ component install lennart/buffer
+
 ## Todo:
 * More string encodings
     1. hex

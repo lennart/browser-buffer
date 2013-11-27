@@ -1,0 +1,14 @@
+{
+  "name": "buffer",
+  "repo": "lennart/buffer",
+  "description": "node.js Buffer in the browser",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "src/browser-buffer.js",
+  "scripts": [
+    "src/browser-buffer.js"
+  ]
+}

@@ -19,7 +19,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 ;
-(function () {
+(function (exports) {
     "use strict";
 
     function isArrayIsh(subject) {
@@ -967,5 +967,5 @@
         return l;
     }
 
-    window.Buffer = Buffer;
-})();
+    exports.Buffer = Buffer;
+})(module.exports);
